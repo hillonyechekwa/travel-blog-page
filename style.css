@@ -69,6 +69,7 @@ header.site-header{
     height: 50px;
     font-weight: bold;
     font-size: 20px;
+    cursor: pointer;
 }
 
 .cta-header{
@@ -114,8 +115,8 @@ section.featured{
     margin-top: 100px;
     display: grid;
     grid-template-columns: repeat(5, 1fr);
-    grid-template-areas:". a . b ."
-                        ". . c . .";
+    grid-template-areas:". 🚽 . 🚿 ."
+                        ". . 🦾 . .";
     grid-column-gap: 10px;
     grid-row-gap: 100px;
     padding: 10px 20px;
@@ -123,15 +124,15 @@ section.featured{
 
 
 .card1{
-    grid-area: a;
+    grid-area: 🚽;
 }
 
 .card2{
-    grid-area: b;
+    grid-area: 🚿;
 }
 
 .card3{
-    grid-area: c;
+    grid-area: 🦾;
 }
 section.featured .card{
     position: relative;
@@ -202,4 +203,36 @@ section.follow .jumbo .cta-follow{
     position: relative;
     top: 10%;
     left: 40%; 
+}
+
+footer.site-footer{
+    display: grid;
+    position: relative;
+    margin-top: 50px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-areas:"🤩 👋 🛸 💩"
+                        "🤩 👋 🛸 💩"
+                        ".   .  .  👍";
+    grid-gap: 10px;
+}
+
+
+footer.site-footer img{
+    grid-area: 🤩;
+}
+
+footer.site-footer span.footer-about{
+    grid-area: 👋;
+}
+
+footer.site-footer ul.quick{
+    grid-area: 🛸;
+}
+
+footer.site-footer ul.categories-footer{
+    grid-area: 💩;
+}
+
+footer.site-footer ul.socials{
+    grid-area: 👍;
 }
