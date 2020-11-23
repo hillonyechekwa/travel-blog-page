@@ -185,6 +185,7 @@ section.featured .card{
     height: 280px;
     cursor: pointer;
     border-radius: 5px;
+    z-index: 4;
 }
 
 section.featured .card div{
@@ -306,3 +307,27 @@ footer.site-footer ul.categories-footer{
 footer.site-footer ul.socials{
     grid-area: 👍;
 }
+
+
+
+.dot-pattern{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    margin-top: 130px;
+    margin-left: 80px;
+    z-index: 2;
+}
+
+
+
+.accent-header{
+    width: 300px;
+    height: 30px;
+    background-color: var(--primary);
+    position: absolute;
+    left: 50%;
+    top: 45%;
+}
+
+

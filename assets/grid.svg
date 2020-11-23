@@ -1,0 +1,10 @@
+<svg width="14" height="24" viewBox="0 0 14 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect x="0.5" y="0.5" width="5" height="5" fill="#3D2A2A" stroke="#332A2A"/>
+<rect x="0.5" y="8.5" width="5" height="5" fill="#3D2A2A" stroke="#332A2A"/>
+<rect x="8.5" y="0.5" width="5" height="5" fill="#3D2A2A" stroke="#332A2A"/>
+<mask id="path-4-inside-1" fill="white">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M8 18V14V8H14V14V18V24H8H1V18H8Z"/>
+</mask>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M8 18V14V8H14V14V18V24H8H1V18H8Z" fill="#3D2A2A"/>
+<path d="M8 18V19H9V18H8ZM8 8V7H7V8H8ZM14 8H15V7H14V8ZM14 24V25H15V24H14ZM1 24H0V25H1V24ZM1 18V17H0V18H1ZM7 14V18H9V14H7ZM9 14V8H7V14H9ZM8 9H14V7H8V9ZM13 8V14H15V8H13ZM15 18V14H13V18H15ZM15 24V18H13V24H15ZM8 25H14V23H8V25ZM1 25H8V23H1V25ZM0 18V24H2V18H0ZM8 17H1V19H8V17Z" fill="#3D2A2A" mask="url(#path-4-inside-1)"/>
+</svg>
