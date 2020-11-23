@@ -296,6 +296,40 @@ footer.site-footer span.footer-about{
     grid-area: 👋;
 }
 
+footer.site-footer span.footer-about h3{
+    font-family: var(--serif);
+    text-transform: capitalize;
+}
+
+footer.site-footer span.footer-about p{
+    font-family: var(--sans);
+    line-height: 140.8%;
+    letter-spacing: 10%;
+}
+
+footer.site-footer ul li{
+    list-style: none;
+    font-family: var(--sans);
+    margin-bottom: 5px;
+    text-transform: capitalize;
+}
+
+footer.site-footer ul li a{
+    text-decoration: none;
+    color: var(--black);
+}
+
+footer.site-footer ul li.head{
+    font-family: var(--serif);
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+footer.site-footer ul li.head a{
+    cursor: default;
+}
+
 footer.site-footer ul.quick{
     grid-area: 🛸;
 }
@@ -306,6 +340,19 @@ footer.site-footer ul.categories-footer{
 
 footer.site-footer ul.socials{
     grid-area: 👍;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: baseline;
+}
+
+
+footer.site-footer ul.socials li p{
+    font-size: 10px;
+}
+
+footer.site-footer ul.socials li p .foot-logo{
+    width: 20px;
+    height: 20px;
 }
 
 
