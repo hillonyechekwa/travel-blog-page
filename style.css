@@ -380,111 +380,7 @@ footer.site-footer ul.socials li p i{
     top: 45%;
 }
 
-/* mediaq mobile */
-@media only screen and (max-width: 600px){
-    /* header */
-    header.site-header .site-title-a{
-        font-size: 30px;
-        position: absolute;
-        left: 30%;
-        top: 20%;
-    }
-
-    header.site-header .site-title-b{
-        font-size: 50px;
-        position: absolute;
-        left: 10%;
-        top: 25%;
-    }
-
-    .cta{
-        width: 200px;
-    }
-
-    header.site-header .cta-header{
-        position: relative;
-        left: 25%;
-    }
-
-    header.site-header .sub1{
-        left: 10%;
-    }
-
-    header.site-header .sub2{
-        left: 70%;
-    }
-
-    header.site-header .sub{
-        font-weight: bolder;
-    }
-
-    .accent-header{
-        display: none;
-    }
-
-    /* section 1 */
-    section.categories div{
-        width: 100px;
-        margin-left: 10px
-    }
-
-    section.featured {
-        position: relative;
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-areas:"🚽"
-                            "🚿"
-                            "🦾";
-        padding: 70px 40px;
-    }
-
-    section.follow{
-        margin-top: 200px;
-    }
-
-    section.follow .jumbo{
-        width: 100%;
-        height: 400px;
-    }
-
-    section.follow .jumbo .thumb-wrapper{
-        position: absolute;
-        top: -10%;
-    }
-
-    section.follow .jumbo h1{
-        font-size: 50px;
-        margin-top: 70px;
-    }
-
-    section.follow .jumbo .cta-follow{
-        position: relative;
-        top: 0%;
-        left: 25%;
-    }
-
-    footer.site-footer{
-        display: grid;
-        position: relative;
-        grid-template-columns: 1fr;
-        grid-template-areas: "🤩" 
-                             "👋" 
-                             "🛸" 
-                             "💩"
-                             "👍";
-        grid-gap: 20px;                            
-    }
-
-    footer.site-footer img,
-    footer.site-footer span.footer-about,
-    footer.site-footer ul.quick,
-    footer.site-footer ul.categories-footer{
-        margin: auto;
-    }
-
-}
-
-/* media q tablet */
+/*-------------------- media q tablet ---------------*/
 @media only screen and (max-width: 768px){
      /* header */
     header.site-header .site-title-a{
@@ -588,6 +484,105 @@ footer.site-footer ul.socials li p i{
         margin: auto;
     }
 }
+
+/* -----------------------mediaq 600 ------------------*/
+@media only screen and (max-width: 600px){
+    /* header */
+    header.site-header .site-title-a{
+        font-size: 30px;
+        position: absolute;
+        left: 30%;
+        top: 20%;
+    }
+
+    header.site-header .site-title-b{
+        font-size: 50px;
+        position: absolute;
+        left: 10%;
+        top: 25%;
+    }
+
+    .cta{
+        max-width: 200px;
+    }
+
+    header.site-header .cta-header{
+        position: relative;
+        left: 25%;
+    }
+
+    header.site-header .sub1{
+        left: 10%;
+    }
+
+    header.site-header .sub2{
+        left: 70%;
+    }
+
+    header.site-header .sub{
+        font-weight: bolder;
+    }
+
+    .accent-header{
+        display: none;
+    }
+
+    /* section 1 */
+  
+    section.categories div{
+        max-width: 100px;
+        margin-left: 20px;
+    }
+
+    section.featured {
+        position: relative;
+        display: grid;
+        justify-content: center;
+        grid-template-columns: 1fr;
+        grid-template-areas:"🚽"
+                            "🚿"
+                            "🦾";
+/*         padding: 70px 40px; */
+      padding-top: 70px;
+      padding-bottom: 70px;
+    }
+
+    section.follow{
+        margin-top: 200px;
+/*         max-width: 100%; */
+    }
+
+    section.follow .jumbo{
+        max-width: 100%;
+        height: 400px;
+        margin: auto;
+    }
+
+    section.follow .jumbo .thumb-wrapper{
+        position: absolute;
+        top: -10%;
+    }
+
+    section.follow .jumbo h1{
+        font-size: 50px;
+        margin-top: 70px;
+    }
+
+    section.follow .jumbo .cta-follow{
+        position: relative;
+        top: 0%;
+        left: 25%;
+    }
+
+  footer.site-footer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+/*------------media 300-----------------------  */
+
 
 
 
